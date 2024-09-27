@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main1 {
+
+}
+
+#header1 {
+    height: 46.5px;
+    background-color: black;
+}
+#header1 .search{
+    line-height: 46.5px;
+    text-align: center;
+}
+#header1 .search .search-type{
+    width: 300px;
+    height: 30px;
+    border-radius: 25px;
+}
+
+#header1 .search .search-btn{
+    text-transform: uppercase;
+}
+#header1 .search .search-btn:hover{
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+#contain1 {
+}
+#contain1 .content1{
+    height: 300px;
+    display: flex;
+    
+}
+
+#contain1 .content1 .input1{
+    padding: 30px 30px;
+    width: 650px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.content1 .input1 ul{
+    list-style-type: none;
+
+}
+.input1 li label{
+    text-align: start;
+    min-width: 121px;
+    display: block;
+}
+.input1 li input1{
+    text-align: center;
+    flex: 1;
+}
+
+.input1 >ul >li{
+    margin: 20px;
+    text-transform: uppercase;
+    display: flex;
+}
+.add-btn{
+    width: 40px;
+    background-color: #007bff;
+    
+}
+.add-btn:hover{
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+.content1 .input2{
+    width: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.content1 .input2 .book{
+    padding-top: 30px;
+    width: 200px;
+    height: 280px;
+    box-sizing: border-box;
+}
+
+.table{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 20px;
+}
+
+.table-content {
+    width: 1150px;
+    height: 200px;
+    border: 2px solid;
+    text-align: center;
+}
+.table-content thead th{
+    border: 2px solid;
+    text-transform: uppercase;
+    background-color: #ccc;
+}
+tbody tr td{
+    border:2px solid ;
+    text-transform: uppercase;
+}
+tbody td .delete-btn{
+    background-color: red;
+}
+tbody td .delete-btn:hover{
+    background-color: #f28b82;
+}
+tbody td .modify-btn{
+background-color: #17a2b8;
+}
+
+tbody td .modify-btn:hover{
+    background-color: green;
+}
+hr{
+    width: 100%;
+}
+
+

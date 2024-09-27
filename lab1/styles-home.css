@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}html{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#main {
+
+}
+
+#header {
+    height: 100px;
+
+}
+#header .header1 {
+    height: 50px;
+    background-color: #FFFFF0;
+}
+
+    
+
+ .header1 >.tab-header1 >li{
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 20px;
+    float: right;
+}
+.header2 >.tab-header2>li:hover,
+.header1 >.tab-header1 >li:hover{
+    background-color: #ccc;
+
+}
+.tab-header1 li a{
+    color: rgb(35, 22, 217);
+    text-decoration: none;
+    display: block;
+}
+
+.tab-header2 > li >a{
+    text-decoration: none;
+    color: blue;
+    display: block;
+}
+
+
+
+.header2 > .tab-header2 > li{
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 20px;
+
+}
+
+#contain {
+
+}
+
+#footer {
+
+}

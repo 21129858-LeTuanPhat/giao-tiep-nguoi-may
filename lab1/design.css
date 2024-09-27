@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#contain{
+    display: flex;
+    text-align: center;
+
+}
+.content1{
+    width: 50%;
+}
+.design{
+    width: 500px;
+    height: 400px;
+}
+.content2-sub >li,
+.content1-sub > li{
+    list-style-type: none;
+    margin: 20px;
+    text-transform: uppercase;
+}
+.content2{
+    width: 50%;
+}
+.sketch{
+    width: 400px;
+    height: 400px;
+    transform: rotate(-90deg);
+
+}
+
