@@ -32,6 +32,9 @@
 
 #contain1 {
 }
+.title{
+    text-align: center;
+}
 #contain1 .content1{
     height: 300px;
     display: flex;
